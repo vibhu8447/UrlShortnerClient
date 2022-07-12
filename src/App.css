@@ -1,7 +1,22 @@
 .App {
+  /* text-align: center; */
+  justify-content: center;
+  align-content: center;
+  flex-grow: 100;
+  display: flex;
+  flex-direction: column;
+  background-color: #273849;
   text-align: center;
+  height:20rem;
 }
-
+.head{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  /* justify-content:space-around; */
+  align-content: center;
+  justify-content: center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +50,68 @@
   to {
     transform: rotate(360deg);
   }
+}
+.urlInput{
+  color: #161c34;
+    font-size: 20px;
+  padding-left: 10px;
+  border-radius: 4px;
+  
+  height: 48px;
+  width: 490px;
+  border: 1px solid rgba(175,185,197,.36);
+}
+.button{
+  margin-left:2em;
+  height: 48px;
+  width: 200px;
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff;
+  border: none;
+  background-color: #2281c2;
+  /* padding:11px 60px; */
+  
+}
+.shortened-links-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.shortened-links-list-item.shortened-links-list-item-copy {
+  position: relative;
+}
+.shortened-links-list-item {
+  width: 100%;
+  border: 1px solid #02af63;
+  background: #fff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 12px;
+}
+
+.short-link {
+  width: 85%;
+  white-space: nowrap;
+}
+.short-link-hidden {
+  border: 0;
+  position: absolute;
+  top: -9999px;
+}
+.copy-link {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  top: 0;
 }

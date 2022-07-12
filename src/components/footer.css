@@ -1,0 +1,30 @@
+.container{
+    color: #F4F7F8;
+    margin-top: 2rem;
+    display: flex;
+    width: 614px;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: column;
+    align-items: center;
+}
+.paragraph_dark_center {
+    color: #171c34;
+    line-height: 24px;
+    font-weight: 200;
+    text-align: center;
+}
+.new_h1_dark {
+    display: block;
+    margin-bottom: 70px;
+    color: #212732;
+    font-size: 34px;
+    line-height: 46px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.new_h1_dark.no-margin {
+    margin-top: 0;
+    margin-bottom: 0;
+}

@@ -1,0 +1,8 @@
+.icons:hover{
+    cursor:pointer;
+
+}
+.icons:active{
+    background-color:#DBE1E9;
+    border-radius: 50%;
+}
